@@ -426,7 +426,37 @@ body{
 }
 
 .footer{
-    
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;   
+}
+/* 
+.footer p{
+    color: #2762BC;
+} */
+
+.first-grid{
+    margin: 20px 50px;
+}
+
+.footer-subheading{
+    opacity: 0.8;
+    color: #032E6E;
+}
+
+.footer-heading{
+    color: rgb(5, 39, 90);
+    font-weight: 600;
+}
+
+.second-grid{
+    margin: 20px 50px;
+}
+
+.second-grid p{
+    padding-top: 40px;
+    color: #032E6E;
+    opacity: 0.9;
 }
 
 /* 
