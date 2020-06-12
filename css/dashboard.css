@@ -32,12 +32,31 @@ body{
     margin-right: 40px;
 }
 
+.menu{
+    margin: 40px 10px 20px 20px;
+}
+
 .menu-item{
     text-decoration: none;
     margin: 0px 20px;
+    display: flex;
+    color: #707070;
+    opacity: 0.5;
+}
+ 
+.menu-active{
+    opacity: 1;
+} 
+
+.menu-icon{
+    margin-right: 20px;
 }
 
-.main-board{
+.menu-text{
+
+}
+
+.main-section{
     margin-top: 30vh ;
 }
 
@@ -54,7 +73,7 @@ body{
 }
 
 .blue-button{
-    width: 200px;
+    width: 180px;
     height: 34px;
     background-color:#2762BC;
     color: white;
@@ -79,3 +98,5 @@ body{
     max-width: 450px;
     margin-top: -20px;
 }
+
+
