@@ -13,11 +13,16 @@ body{
 
 }
 
+.header-logo{
+    width: 100px;
+    margin: 20px;
+}
 
 .contact-section{
     margin: auto;
     max-width: 300px;
-    margin-top: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10px ;
     background-color: white;
     padding: 30px 40px 50px;
     /* Add shadows to create the "card" effect */
