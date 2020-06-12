@@ -92,12 +92,12 @@ body{
 }
 
 .blue-button{
-    width: 100%;
+    width: 200px;
     height: 34px;
     background-color:#2762BC;
     color: white;
     font-size: 18px;
-    margin-top: 20px;
+    margin: 20px 20px 20px;
     
     border-color:#2762BC;
     border-radius: 4px;
