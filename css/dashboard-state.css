@@ -53,10 +53,12 @@ body{
 }
 
 
-
+.main-board{
+    overflow: scroll;
+}
 
 .main-section{
-    margin-top: 30vh ;
+    margin-top: 5vh ;
 }
 
 .small-text{
