@@ -23,7 +23,7 @@ body{
 }
 
 .side-navbar{
-    width: 250px;
+    width: 360px;
     height: 100vh;
     border-color: rgba(26, 24, 24, 0.137);
     border-right-width: 0.1px;
@@ -54,11 +54,13 @@ body{
 
 
 .main-board{
-    overflow: scroll;
+    overflow: auto;
+    
 }
 
 .main-section{
     margin-top: 5vh ;
+    /* margin-left: 350px; */
 }
 
 .small-text{

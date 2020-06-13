@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html>
+        <link type="text/css" rel="stylesheet" href="css/dashboard-state.css">
+        <link type="text/css" rel="stylesheet" href="css/login.css">
+
+    <body>
+    
+        
+     <div class="container">
+        <!-- Begining of navbar -->
+        <nav class="side-navbar">
+            <!-- NavBar Elements -->
+            <img class="header-logo" src="images/spiinge-logo.png">
+            <div class="menu">
+                <a class="menu-item" href="#"> 
+                   <img class="menu-icon" src="vectors/plus.svg">
+                    <p class="menu-text">New Categories</p>
+                </a>
+                <a class="menu-item menu-active" href="#">
+                    <img class="menu-icon" src="vectors/categories.svg">
+                    <p class="menu-text">Categories</p>
+                </a>
+                <a class="menu-item" href="#">
+                    <img class="menu-icon" src="vectors/settings.svg">
+                    <p class="menu-text">Settings</p>
+                </a>
+                <!-- <p><a href="#">Contact</a></p> -->
+            </div>
+            
+        </nav>
+        <!--End of navbar-->
+
+        <div class="main-board">
+            <div class="header-bar">
+                <p>Categories</p>
+            </div>
+         
+            <!-- Begining of Contact form -->
+            <div class="contact-section">
+                <p class="section-text">Add the webpages you want to save</p>
+                <form id="form">
+                    <label for="name-label" class="name-label" >Categories</label>
+                    <input type="name"
+                            class="name-text"
+                            placeholder=" "
+                            required
+                    >
+                    <label for="name-label" class="name-label">Webpages</label>
+                    <input type="email"
+                            class="name-text"
+                            placeholder=" "
+                            required
+                    >
+                    <p>Webpages saved appear in categories</p>
+                    <!--Submit Button-->
+                    <input type="submit" value="Save" class="submit-button">
+                </form>
+            </div>
+            <!-- End of Contact form -->
+        </div>
+        <!-- End of flex Container -->
+ 
+    </body>
+</html>  
