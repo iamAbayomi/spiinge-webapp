@@ -23,13 +23,13 @@ body{
 }
 
 .side-navbar{
-    width: 360px;
+    width: 280px;
     height: 100vh;
     border-color: rgba(26, 24, 24, 0.137);
     border-right-width: 0.1px;
     border-radius: 1px;
     border-right-style: solid;
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 .menu{
@@ -55,7 +55,8 @@ body{
 
 .main-board{
     overflow: auto;
-    
+    background-color:  rgba(128, 128, 128, 0.035);
+    width: 100%
 }
 
 .main-section{
@@ -90,9 +91,30 @@ body{
     transition: 0.3s;
 }
 
+.header-bar{
+    width: 100%;
+    padding-top: 1px;
+    background-color: white;
+    border-bottom-color: rgba(128, 128, 128, 0.377);
+    border-radius: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.4px;
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+}
+
+.header-text{
+    color:  rgba(128, 128, 128, 0.678);
+    text-align: left;
+    margin-left: 40px;
+ 
+}
+
 .heading{
     font-size: 38px;
     color: rgb(8, 44, 99);
+    padding-top: 40px;
 }
 
 .sub-heading{
