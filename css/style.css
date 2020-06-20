@@ -397,7 +397,8 @@ body{
 
 .features-grid{
     display: flex;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .features-card{
