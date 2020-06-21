@@ -397,12 +397,12 @@ body{
 
 .features-grid{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
 .features-card{
-    width: 300px;
+    width: 200px;
     height: 200px;
     margin-left: 30px;
     /* Add shadows to create the "card" effect */
