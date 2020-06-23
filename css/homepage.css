@@ -1,0 +1,43 @@
+html {
+    font-size: 100%;
+  }
+  
+body{
+    background-color: white;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff; 
+    
+}
+
+.top-navbar {
+     
+}
+
+.nav-id{
+    display: none;
+}
+
+.header-logo{
+    width: 80px;
+    margin: 20px;
+}
+
+.value-prop-text{
+    color: #2762BC;
+}
+
+.main-text {
+    font-size: 32px;
+    font-weight: 600;
+    max-width: 200px;
+    text-align: center;
+}
+
+.main-description {
+    font-size: 16px; 
+    max-width: 200px;  
+}
