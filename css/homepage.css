@@ -56,9 +56,10 @@ body{
 .main-description {
     font-size: 16px; 
     max-width: 240px; 
-    margin: 10px auto 10px auto; 
+    margin: 30px auto 30px auto; 
     text-align: center;
     color: #032E6E;
+    line-height: 30px;
 }
 
 .button-container{
@@ -249,7 +250,7 @@ body{
     .main-description {
         font-size: 16px; 
         max-width: 380px; 
-        margin: 10px auto 10px auto; 
+        margin: 30px auto 30px auto; 
         text-align: center;
         color: #032E6E;
     }
@@ -280,5 +281,21 @@ body{
         font-kerning: 20px;
         line-height: 30px;
     }
+
     
+.features-card{
+    height: 200px;
+    margin: 10px 5px 40px 5px;
+
+}
+    
+}
+
+
+
+/* Screen Sizes greater than 699px */
+
+@media screen and (min-width: 699px){
+
+
 }
