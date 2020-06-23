@@ -466,7 +466,7 @@ body{
 }
 
 .features-card{
-    width: 250px;
+    max-width: 250px;
     height: 200px;
     margin-left: 20px;
     /* Add shadows to create the "card" effect */
