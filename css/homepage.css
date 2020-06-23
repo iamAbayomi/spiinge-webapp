@@ -297,5 +297,20 @@ body{
 
 @media screen and (min-width: 699px){
 
+    .value-prop{
+        margin: 10vh 10px 10px 60px;
+    }
 
+    .main-text {
+        text-align: left;
+    }
+
+    
+    .main-description {
+        text-align: left;
+    }
+
+    .button-container{
+        margin: 30px 10px 10px 0px; 
+    }
 }
