@@ -19,7 +19,7 @@ body{
 }
 
 .container{
-    display: flex;
+    /* display: flex; */
 }
 
 .side-navbar{
@@ -30,6 +30,7 @@ body{
     border-radius: 1px;
     border-right-style: solid;
     margin-right: 40px;
+    display: none;
 }
 
 .menu{
@@ -53,10 +54,9 @@ body{
 }
 
 
-
-
 .main-section{
-    margin-top: 30vh ;
+    margin: 30vh auto 0px auto; 
+    max-width: 280px;  
 }
 
 .small-text{
@@ -99,3 +99,22 @@ body{
 }
 
 
+@media screen and (min-width: 500px){
+    .side-navbar{
+        width: 250px;
+        height: 100vh;
+        border-color: rgba(26, 24, 24, 0.137);
+        border-right-width: 0.1px;
+        border-radius: 1px;
+        border-right-style: solid;
+        margin-right: 40px;
+        display: none;
+    }
+
+    
+    .main-section{
+        margin-top: 30vh ;
+        margin: auto;   
+    }
+
+}
